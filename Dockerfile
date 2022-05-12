@@ -5,4 +5,3 @@ RUN npm ci --only=production && npm cache clean --force
 COPY . /app
 CMD node index.js
 EXPOSE 8080
-s
